@@ -1,0 +1,89 @@
+.bgimg{
+    background-image: url(agra.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 950px;
+}
+
+.headerset{
+    padding: 200px;
+    box-sizing: border-box;
+    margin-top: 200px;
+}
+.headerset h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: cursive;
+    transition: 0.7s ease;
+}
+.headerset h6{
+    padding: 10px;
+    font-size: 24px;
+    transition: 0.7s ease;
+}
+.headerset h1:hover{
+    color: darkgray;
+    font-size: 60px;
+}
+.headerset h6:hover{
+    color: darkgray;
+    font-size: 30px;
+}
+@media only screen and (max-width:800px){
+
+.headerset h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: cursive;
+    transition: 0.7s ease;
+
+}
+    .headerset{
+        padding: 200px;
+        box-sizing: border-box;
+        margin-top: 100px;
+    }
+
+    }    
+}
+.posts{
+    color: black;
+    margin-top: 300px;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.nav-bar li a{
+    margin: 18px;
+    transition: 0.7s ease;
+}
+.nav-bar li a:hover{
+    background-color: black;
+}
+section{
+    padding: 20px;
+    margin: 20px;
+}
+.card-group{
+    margin: 25px;
+    transition: 0.7s ease;
+}
+.card{
+    margin: 25px;
+
+}
+.card:hover{
+    opacity: 0.3;
+}
+.text-uppercase{
+    color: white;
+    
+}
+.text-white{
+    margin-right: 25px;
+    margin-right: 4px;
+}
+
+
+
+

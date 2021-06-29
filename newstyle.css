@@ -286,6 +286,35 @@ nav ul li a{
      }
 
 }
+
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+.page-button{
+    margin: 0 auto 80px;
+}
+.page-button span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 14px;
+    cursor: pointer;
+}
+.page-button span:hover{
+    background-color: #ff523b;
+}
 @media only screen and (max-width : 600px){
     .row{
         text-align: center;
