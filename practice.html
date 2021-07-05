@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            text-align: center;
+        }
+        button{
+            margin: auto;
+            display: block;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <p id="para">Click down to know Your name</p><br>
+    <button type="button" >Click here</button>
+    
+</body>
+</html>
+
+
+<script>
+    // name = prompt("What is your name")
+    // if (name!=" "){
+    //     alert("Nice to meet you " + name)
+    //     document.write("Nice to meet you " + name)
+    // }
+
+    var para = document.getElementById("para");
+    var btn = document.getElementsByTagName("button");
+
+    btn.onclick = function(){
+        document.getElementById("para").innerText = "Hello Wali";
+    }
+
+
+</script>
